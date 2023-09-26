@@ -2,7 +2,7 @@
 
 namespace ch9;
 
-class ApptEncoder
+abstract class ApptEncoder
 {
-
+ abstract public function encode(): string;
 }

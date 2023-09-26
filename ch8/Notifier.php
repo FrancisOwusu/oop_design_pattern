@@ -1,4 +1,7 @@
 <?php
+
+use ch8\MailNotifier;
+
 abstract class Notifier
 {
 public static function getNotifier(): Notifier

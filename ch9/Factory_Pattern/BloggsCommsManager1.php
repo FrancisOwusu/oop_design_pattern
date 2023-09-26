@@ -1,10 +1,9 @@
 <?php
-
 include_once 'CommsManager.php';
 include_once './ch9/ApptEncoder.php';
-include_once './ch9/BloggsApptEncoder.php';
+include_once './ch9/';
 include_once './ch9/ApptEncoder.php';
-class BloggsCommsManager extends CommsManager
+class BloggsCommsManager1 extends CommsManager
 {
     public function getHeaderText(): string
     {
@@ -44,7 +43,7 @@ class BloggsCommsManager extends CommsManager
     }
 }
 
-$mgr = new BloggsCommsManager();
+$mgr = new BloggsCommsManager1();
 print $mgr->getHeaderText();
 print $mgr->getApptEncoder()->encode();
 print $mgr->getFooterText();
