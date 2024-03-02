@@ -1,8 +1,7 @@
 <?php
 class RegistrationMgr
 {
-public function register(Lession
- $lesson): void
+public function register(Lession $lesson): void
 {
 // do something with this Lesson
 // now tell someone
